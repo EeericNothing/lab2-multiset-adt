@@ -52,7 +52,7 @@ public class BST {
             this.left = new BST();
             this.right = new BST();
         } else {
-            if (this.left.root <= item) {
+            if (this.root <= item) {
                 this.left.insert(item);
             } else {
                 this.right.insert(item);
